@@ -15,6 +15,7 @@ import javax.swing.*;
 public class FiveStarFlag extends JPanel {
     public static void main(String[] args) {
         JFrame jFrame = new JFrame("五星红旗");
+        //测试
         jFrame.getContentPane().add(new FiveStarFlag(800));
         jFrame.pack();
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
